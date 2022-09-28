@@ -29,7 +29,11 @@ const morsecode =
    "W": ".--",
    "X": "-..-",
    "Y": "-.--",
-   "Z": "--.."
+   "Z": "--..",
+   ".": ". _ . _ . _",
+   " ": "/"
+
+
 }
 
 
@@ -42,7 +46,7 @@ const morsecode =
 
 
 // export 
-const convertToMorse = (word) => {
+export const convertToMorse = (word) => {
     let finalMorseCode = '';
 
     for(let i=0; i<word.length; i++){
@@ -52,4 +56,4 @@ const convertToMorse = (word) => {
 }
 
  
- console.log(convertToMorse("BDC"));
+//  console.log(convertToMorse("BDC"));
