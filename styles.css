@@ -1,0 +1,25 @@
+@import url();
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+
+.english_text {
+grid-template-areas: ;
+
+}
+.fetch_code {
+    background-color: burlywood;
+    border-color: black;
+    height: 50vh;
+    width: 50vh;
+}
+
+.textInput {
+    height: 50vh;
+    width: 50vh;
+    background-color: gray;
+}
